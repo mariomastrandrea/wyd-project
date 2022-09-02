@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>_13_Wyd.RestApi</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+    <PackageReference Include="Microsoft.Azure.Cosmos.Table" Version="1.0.8" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="DB\" />
+    <Folder Include="DB\Entities\" />
+    <Folder Include="DB\Tables\" />
+    <Folder Include="DB\Tables\Items\" />
+    <Folder Include="DB\Entities\Items\" />
+    <Folder Include="DB\Tables\Users\" />
+    <Folder Include="DB\Entities\Users\" />
+    <Folder Include="DB\Tables\Reviews\" />
+    <Folder Include="DB\Entities\Reviews\" />
+    <Folder Include="DB\Entities\Orders\" />
+    <Folder Include="DB\Tables\Payments\" />
+    <Folder Include="DB\Entities\Payments\" />
+    <Folder Include="DB\Tables\Orders\" />
+    <Folder Include="DB\Tables\Log\" />
+    <Folder Include="DB\Entities\Log\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\13_Wyd.ModelClasses\13_Wyd.ModelClasses.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="DB\Tables\Reviews\" />
+    <None Remove="DB\Entities\Reviews\" />
+    <None Remove="DB\Entities\Orders\" />
+    <None Remove="DB\Tables\Payments\" />
+    <None Remove="DB\Entities\Payments\" />
+    <None Remove="DB\Tables\Orders\" />
+    <None Remove="DB\Tables\Log\" />
+    <None Remove="DB\Entities\Log\" />
+  </ItemGroup>
+</Project>

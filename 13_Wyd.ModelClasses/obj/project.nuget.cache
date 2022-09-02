@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "I7sf7j8b88zoqdXfrtMoOlgwp5X+z8B//ODf/Kre8iYI58VcF48dCRkz1yn+uknCOveMLPEKL5bgVfELUYVzhQ==",
+  "success": true,
+  "projectFilePath": "/Users/mariomastrandrea/Desktop/Polito/triennale_IngGestionale/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.ModelClasses/13_Wyd.ModelClasses.csproj",
+  "expectedPackageFiles": [
+    "/Users/mariomastrandrea/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

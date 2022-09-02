@@ -1,0 +1,139 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mariomastrandrea/Desktop/Polito/triennale_IngGestionale/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.RestApi/13_Wyd.RestApi.csproj": {}
+  },
+  "projects": {
+    "/Users/mariomastrandrea/Desktop/Polito/triennale_IngGestionale/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.ModelClasses/13_Wyd.ModelClasses.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mariomastrandrea/Desktop/Polito/triennale_IngGestionale/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.ModelClasses/13_Wyd.ModelClasses.csproj",
+        "projectName": "13_Wyd.ModelClasses",
+        "projectPath": "/Users/mariomastrandrea/Desktop/Polito/triennale_IngGestionale/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.ModelClasses/13_Wyd.ModelClasses.csproj",
+        "packagesPath": "/Users/mariomastrandrea/.nuget/packages/",
+        "outputPath": "/Users/mariomastrandrea/Desktop/Polito/triennale_IngGestionale/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.ModelClasses/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mariomastrandrea/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mariomastrandrea/Desktop/Polito/triennale_IngGestionale/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.RestApi/13_Wyd.RestApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mariomastrandrea/Desktop/Polito/triennale_IngGestionale/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.RestApi/13_Wyd.RestApi.csproj",
+        "projectName": "13_Wyd.RestApi",
+        "projectPath": "/Users/mariomastrandrea/Desktop/Polito/triennale_IngGestionale/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.RestApi/13_Wyd.RestApi.csproj",
+        "packagesPath": "/Users/mariomastrandrea/.nuget/packages/",
+        "outputPath": "/Users/mariomastrandrea/Desktop/Polito/triennale_IngGestionale/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.RestApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mariomastrandrea/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/mariomastrandrea/Desktop/Polito/triennale_IngGestionale/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.ModelClasses/13_Wyd.ModelClasses.csproj": {
+                "projectPath": "/Users/mariomastrandrea/Desktop/Polito/triennale_IngGestionale/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.ModelClasses/13_Wyd.ModelClasses.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Azure.Cosmos.Table": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

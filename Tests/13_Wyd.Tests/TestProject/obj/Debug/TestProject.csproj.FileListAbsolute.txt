@@ -1,0 +1,12 @@
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/Tests/13_Wyd.Tests/TestProject/bin/Debug/TestProject.exe
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/Tests/13_Wyd.Tests/TestProject/bin/Debug/TestProject.pdb
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/Tests/13_Wyd.Tests/TestProject/obj/Debug/TestProject.csproj.AssemblyReference.cache
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/Tests/13_Wyd.Tests/TestProject/obj/Debug/TestProject.csproj.CoreCompileInputs.cache
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/Tests/13_Wyd.Tests/TestProject/obj/Debug/TestProject.exe
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/Tests/13_Wyd.Tests/TestProject/obj/Debug/TestProject.pdb
+/Users/mariomastrandrea/Desktop/Polito/Vetrya_Intern/progetto_Wyd/13_Wyd/Tests/13_Wyd.Tests/TestProject/bin/Debug/TestProject.exe
+/Users/mariomastrandrea/Desktop/Polito/Vetrya_Intern/progetto_Wyd/13_Wyd/Tests/13_Wyd.Tests/TestProject/bin/Debug/TestProject.pdb
+/Users/mariomastrandrea/Desktop/Polito/Vetrya_Intern/progetto_Wyd/13_Wyd/Tests/13_Wyd.Tests/TestProject/obj/Debug/TestProject.csproj.AssemblyReference.cache
+/Users/mariomastrandrea/Desktop/Polito/Vetrya_Intern/progetto_Wyd/13_Wyd/Tests/13_Wyd.Tests/TestProject/obj/Debug/TestProject.csproj.CoreCompileInputs.cache
+/Users/mariomastrandrea/Desktop/Polito/Vetrya_Intern/progetto_Wyd/13_Wyd/Tests/13_Wyd.Tests/TestProject/obj/Debug/TestProject.exe
+/Users/mariomastrandrea/Desktop/Polito/Vetrya_Intern/progetto_Wyd/13_Wyd/Tests/13_Wyd.Tests/TestProject/obj/Debug/TestProject.pdb

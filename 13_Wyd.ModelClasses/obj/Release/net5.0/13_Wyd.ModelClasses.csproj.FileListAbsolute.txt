@@ -1,0 +1,12 @@
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.ModelClasses/bin/Release/net5.0/13_Wyd.ModelClasses.deps.json
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.ModelClasses/bin/Release/net5.0/13_Wyd.ModelClasses.dll
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.ModelClasses/bin/Release/net5.0/ref/13_Wyd.ModelClasses.dll
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.ModelClasses/bin/Release/net5.0/13_Wyd.ModelClasses.pdb
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.ModelClasses/obj/Release/net5.0/13_Wyd.ModelClasses.csproj.AssemblyReference.cache
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.ModelClasses/obj/Release/net5.0/13_Wyd.ModelClasses.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.ModelClasses/obj/Release/net5.0/13_Wyd.ModelClasses.AssemblyInfoInputs.cache
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.ModelClasses/obj/Release/net5.0/13_Wyd.ModelClasses.AssemblyInfo.cs
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.ModelClasses/obj/Release/net5.0/13_Wyd.ModelClasses.csproj.CoreCompileInputs.cache
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.ModelClasses/obj/Release/net5.0/13_Wyd.ModelClasses.dll
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.ModelClasses/obj/Release/net5.0/ref/13_Wyd.ModelClasses.dll
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.ModelClasses/obj/Release/net5.0/13_Wyd.ModelClasses.pdb

@@ -1,0 +1,12 @@
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/prova/bin/Debug/netcoreapp3.1/prova.deps.json
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/prova/bin/Debug/netcoreapp3.1/prova.runtimeconfig.json
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/prova/bin/Debug/netcoreapp3.1/prova.runtimeconfig.dev.json
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/prova/bin/Debug/netcoreapp3.1/prova.dll
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/prova/bin/Debug/netcoreapp3.1/prova.pdb
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/prova/obj/Debug/netcoreapp3.1/prova.csprojAssemblyReference.cache
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/prova/obj/Debug/netcoreapp3.1/prova.AssemblyInfoInputs.cache
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/prova/obj/Debug/netcoreapp3.1/prova.AssemblyInfo.cs
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/prova/obj/Debug/netcoreapp3.1/prova.csproj.CoreCompileInputs.cache
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/prova/obj/Debug/netcoreapp3.1/prova.dll
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/prova/obj/Debug/netcoreapp3.1/prova.pdb
+/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/prova/obj/Debug/netcoreapp3.1/prova.genruntimeconfig.cache

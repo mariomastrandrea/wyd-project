@@ -1,0 +1,171 @@
+﻿@page
+@model IndexModel
+@inject WydManager manager;
+@inject ItemsService itemsService;
+@inject PaymentService paymentService;  
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div>
+    @{  /* Tests */
+
+        //1
+        //await this.manager.RegisterUser("pippo", "franco", "pippofranco@chiocciola.com", "abcdeabcde");
+
+        //2
+        //await this.manager.RegisterItem("Lamp", new decimal(38.00), "Lightnesc", "", new decimal(87.89),
+        //    new TimeSpan(0, 0, 8), new List<string>() {"lamp", "light", "home"});
+
+        //await this.manager.RegisterItem("Book", new decimal(2.90), "LibriERicette", "", new decimal(5.90),
+        //    new TimeSpan(0, 0, 5), new List<string>() { "book", "culture", "education", "magazine", "Library"});*@
+
+        //3a ok
+        //await this.manager.GetUser("US-79721091-c346-4b1c-bfc1-8c8e19b42d46");
+
+        //3b fail
+        //await this.manager.GetUser("aaaoncikas");
+
+        //4 ok
+        //UserAccount a = await this.manager.GetUser("US-79721091-c346-4b1c-bfc1-8c8e19b42d46");
+        //await this.manager.GetShoppingUser(a);
+
+        //5a ok
+        //await this.manager.GetItem("IT-adfb267d-c2f8-4e2c-8a92-e82809032861");
+
+        //5b fail
+        //await this.manager.GetItem("bombola");
+
+        //6a ok
+        //await this.manager.DeleteItem("IT-fa29983d-a92f-4cac-a986-93ee29d93fd4");
+
+        //6b fail
+        //await this.manager.DeleteItem("dmopqwhncapikòl");
+
+        //7a ok
+        //await this.manager.DeleteUser("US-5fa2ed19-cf11-40f7-876e-88478c23d2bb");
+
+        //7b fail
+        //await this.manager.DeleteUser("id-not-present");
+
+        //8a ok same email
+        //UserAccount user = new UserAccount("US-d415a90a-7915-47a5-8a71-bdd6367765fc",
+        //                                        null, "Alessandro", null, "porro");
+        //await this.manager.UpdateUserInfo(user);
+
+        //8b ok change email
+        //UserAccount user = new UserAccount("US-d415a90a-7915-47a5-8a71-bdd6367765fc",
+        //"pippo", null, "pipposirigullio@manimani.coc", null);
+        //await this.manager.UpdateUserInfo(user);
+
+        //9 ok
+
+        //UserAccount user = await this.manager.GetUser("US-d415a90a-7915-47a5-8a71-bdd6367765fc");
+        //BusinessUserAccount businessUser = await this.manager.GetShoppingUser(user);
+
+        //Item wishlistItem = await this.manager.GetItem("IT-2f4c93a5-fac3-4778-ad9b-22c212787dba"); //cacio
+        //Item shoppingCartItem1 = await this.manager.GetItem("IT-41f23021-9da6-4801-9fb1-6ca45ec9ac0f"); //robot
+        //Item shoppingCartItem2 = await this.manager.GetItem("IT-f15a98a4-9956-42a1-8560-24cad910cece"); //book
+
+        //if (businessUser.WishList.ContainsKey(wishlistItem))
+        //    businessUser.WishList.Remove(wishlistItem);
+
+        //if (businessUser.ShoppingCart.ContainsKey(shoppingCartItem1))
+        //    businessUser.ShoppingCart.Remove(shoppingCartItem1);
+
+        //if (businessUser.ShoppingCart.ContainsKey(shoppingCartItem2))
+        //    businessUser.ShoppingCart.Remove(shoppingCartItem2);
+
+        //businessUser.WishList.Add(wishlistItem, 2);
+        //businessUser.ShoppingCart.Add(shoppingCartItem1, 7);
+        //businessUser.ShoppingCart.Add(shoppingCartItem2, 2);
+
+        //await this.manager.UpdateShoppingUser(businessUser);
+
+        //10 ok
+
+        //Item item = new Item("IT-0709d71a-52b2-4b98-91d4-7a0792438b97", "TavoloInPietra", null, null,
+        //"tavolo_piatto", null, null, new List<string>() { "table", "stone" });
+
+        //bool updated = await this.manager.UpdateItem(item);
+
+        //11 ok
+
+        //Item item1 = await this.manager.GetItem("IT-0709d71a-52b2-4b98-91d4-7a0792438b97");
+
+        //UserAccount user1 = await this.manager.GetUser("US-d415a90a-7915-47a5-8a71-bdd6367765fc");
+        //int qty1 = 4;
+
+        //bool correctlyAdded1 = await this.manager.AddItemToWishList(item1, user1, qty1);
+
+        //12 ok
+
+        /*
+        UserAccount user1 = await this.manager.GetUser("US-d415a90a-7915-47a5-8a71-bdd6367765fc");
+        Item item1 = await this.manager.GetItem("IT-0709d71a-52b2-4b98-91d4-7a0792438b97");
+        Item item2 = await this.manager.GetItem("IT-2f4c93a5-fac3-4778-ad9b-22c212787dba");
+        int qty1 = 2;
+        int qty2 = 1;
+
+        bool correctlyAdded1 = await this.manager.AddItemToShoppingCart(item1, user1, qty1);
+        bool correctlyAdded2 = await this.manager.AddItemToShoppingCart(item2, user1, qty2);
+        */
+
+        //13 ok
+
+        //Item item = await this.manager.GetItem("IT-0709d71a-52b2-4b98-91d4-7a0792438b97");
+        //UserAccount user = await this.manager.GetUser("US-0828fd06-313e-497f-900e-4e1f0d9657b0");
+        //double score = 2.1;
+        //string comment = "This was a big f****ng shit!";
+
+        //bool correctlyAddedReview = await this.manager.AddReview(item, user, score, comment);
+
+        //14 ok
+
+        //Item item = await this.manager.GetItem("IT-0709d71a-52b2-4b98-91d4-7a0792438b97");
+        //UserAccount user = await this.manager.GetUser("US-d415a90a-7915-47a5-8a71-bdd6367765fc");
+
+        //bool correctlyRemoved = await this.manager.RemoveItemFromWishList(item, user);
+
+        //15 ok
+
+        //Item item = await this.manager.GetItem("IT-0709d71a-52b2-4b98-91d4-7a0792438b97");
+        //UserAccount user = await this.manager.GetUser("US-d415a90a-7915-47a5-8a71-bdd6367765fc");
+
+        //bool correctlyRemoved = await this.manager.RemoveItemFromShoppingCart(item, user);
+
+        //16 ok
+
+        //Item item2 = await this.manager.GetItem("IT-0709d71a-52b2-4b98-91d4-7a0792438b97");
+        //UserAccount user2 = await this.manager.GetUser("US-d415a90a-7915-47a5-8a71-bdd6367765fc");
+
+        //bool correctlyMoved = await this.manager.MoveFromWishlistToShoppingCart(user2, item2);
+
+        //17 * Order & Payments * ok
+
+        //UserAccount user = await this.manager.GetUser("US-d415a90a-7915-47a5-8a71-bdd6367765fc");
+        //string shippingAddress = "Via dei titani, 33";
+        //PaymentType paymentType = PaymentType.PayPal;
+        //bool isAGift = true;
+
+        //bool orderOk = await this.manager.MakeANewOrder(user, shippingAddress, paymentType, isAGift);
+
+        //18 ok
+        //Order order = await this.manager.GetOrder("OR-1f6d9766-8b5a-4884-8498-fe311a7f1bd5");
+        //bool correctlyCanceled = await this.manager.CancelOrder(order);
+    }
+</div>
+
+<div>
+    @{
+        string responseMessage = await this.paymentService.StartProcessingPayments();
+        responseMessage ??= "(null)";
+
+        Console.WriteLine(responseMessage);
+    }
+</div>

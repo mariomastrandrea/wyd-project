@@ -1,0 +1,63 @@
+﻿<Properties StartupConfiguration="{932E3F5D-3F81-4B92-9356-9DDA2F0B0F85}|Default">
+  <MonoDevelop.Ide.ItemProperties.ExternalAPIs.13__Wyd.Ext.TransferAPI PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.RestAPIs.13__Wyd.PaymentApi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.RestAPIs.13__Wyd.RestApi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.ExternalAPIs.13__Wyd.Ext.PaypalAPI PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="13_Wyd" expanded="True">
+            <Node name="App" expanded="True">
+              <Node name="13_Wyd.App" expanded="True">
+                <Node name="Properties" expanded="True" />
+                <Node name="Services" expanded="True" />
+                <Node name="appsettings.json" expanded="True" />
+                <Node name="Startup.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="ExternalAPIs" expanded="True" />
+            <Node name="Models" expanded="True">
+              <Node name="13_Wyd.ModelClasses" expanded="True">
+                <Node name="Payment" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="RestAPIs" expanded="True">
+              <Node name="13_Wyd.RestApi" expanded="True" />
+            </Node>
+            <Node name="Test" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.App.13__Wyd.App PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.ExternalAPIs.13__Wyd.Ext.CreditOrDebitCardAPI PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Test.TestProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="payments" Name="payments">
+      <Items>
+        <StartupItem ItemId="{33FC4F4B-F15A-4A28-B4E5-A08F3DACF894}" ItemName="13_Wyd.Ext.CreditOrDebitCardAPI" ConfigurationId="Default" />
+        <StartupItem ItemId="{64D699DE-57FF-4B1F-A2FF-A57FDD5E9A77}" ItemName="13_Wyd.Ext.PaypalAPI" ConfigurationId="Default" />
+        <StartupItem ItemId="{17338E6E-D56C-441E-AFF4-E2633EC979BF}" ItemName="13_Wyd.Ext.TransferAPI" ConfigurationId="Default" />
+        <StartupItem ItemId="{4633F644-74BF-4E5D-A340-90FF23756023}" ItemName="13_Wyd.PaymentApi" ConfigurationId="Default" />
+        <StartupItem ItemId="{932E3F5D-3F81-4B92-9356-9DDA2F0B0F85}" ItemName="13_Wyd.RestApi" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+    <MultiItemSolutionRunConfiguration Id="allProjects" Name="allProjects">
+      <Items>
+        <StartupItem ItemId="{0DC72B02-7704-43FB-8733-6228838F5C5E}" ItemName="13_Wyd.App" ConfigurationId="Default" />
+        <StartupItem ItemId="{33FC4F4B-F15A-4A28-B4E5-A08F3DACF894}" ItemName="13_Wyd.Ext.CreditOrDebitCardAPI" ConfigurationId="Default" />
+        <StartupItem ItemId="{64D699DE-57FF-4B1F-A2FF-A57FDD5E9A77}" ItemName="13_Wyd.Ext.PaypalAPI" ConfigurationId="Default" />
+        <StartupItem ItemId="{17338E6E-D56C-441E-AFF4-E2633EC979BF}" ItemName="13_Wyd.Ext.TransferAPI" ConfigurationId="Default" />
+        <StartupItem ItemId="{4633F644-74BF-4E5D-A340-90FF23756023}" ItemName="13_Wyd.PaymentApi" ConfigurationId="Default" />
+        <StartupItem ItemId="{932E3F5D-3F81-4B92-9356-9DDA2F0B0F85}" ItemName="13_Wyd.RestApi" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+</Properties>

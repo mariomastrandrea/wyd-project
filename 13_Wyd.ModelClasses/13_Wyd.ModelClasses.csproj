@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>_13_Wyd.ModelClasses</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Payment\" />
+    <Folder Include="Payment\Events\" />
+    <Folder Include="Payment\Methods\" />
+    <Folder Include="DataStructures\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Newtonsoft.Json" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+</Project>

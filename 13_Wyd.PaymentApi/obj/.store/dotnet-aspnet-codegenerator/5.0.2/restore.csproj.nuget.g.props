@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.PaymentApi/obj/.store/.stage/uksxjaqe.jgi</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.PaymentApi/obj/.store/.stage/uksxjaqe.jgi</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">DotnetToolReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.9.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.PaymentApi/obj/.store/.stage/uksxjaqe.jgi/" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Pkgdotnet-aspnet-codegenerator Condition=" '$(Pkgdotnet-aspnet-codegenerator)' == '' ">/Users/mariomastrandrea/Desktop/Vetrya_Intern/progetto_Wyd/13_Wyd/13_Wyd.PaymentApi/obj/.store/.stage/uksxjaqe.jgi/dotnet-aspnet-codegenerator/5.0.2</Pkgdotnet-aspnet-codegenerator>
+  </PropertyGroup>
+</Project>
